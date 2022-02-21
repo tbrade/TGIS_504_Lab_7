@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #009900 /*Source: https://www.w3schools.com/colors/colors_picker.asp*/
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+#user_description {
+  background-color: #ffffcc;  /*Source: https://www.w3schools.com/colors/colors_picker.asp*/
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 6px;
+  font-family: sans-serif, Arial;
+}
+select {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  margin-bottom: 20px;
+}

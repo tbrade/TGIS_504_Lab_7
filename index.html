@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fisher Evidence Reporting App Washington State</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /><!--These settings are ideal for full-screen mobile use-->
+	<link rel="stylesheet" href="styles.css"/>
+	<!-- Leaflet links -->
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+	  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+	  crossorigin=""/>
+		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+	  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+	  crossorigin=""></script>
+	<!-- Leaflet.draw links -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js" integrity="sha512-ozq8xQKq6urvuU6jNgkfqAmT7jKN2XumbrX1JiB3TnF7tI48DPI4Gy1GXKD/V3EExgAs1V+pRO7vwtS1LHg0Gw==" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css" integrity="sha512-gc3xjCmIy673V6MyOAZhIW93xhM9ei1I+gLbmFjUHIjocENRsLX/QUE1htk5q1XV2D/iie/VQ8DXI6Vu8bexvQ==" crossorigin="anonymous" />
+		<div id="user_description">
+			<center><h1>Fisher Evidence Reporting App</h1></center>
+			<center><p> The Fisher is a member of the weasel family. After being <a target="_blank" href="https://wdfw.wa.gov/species-habitats/species/pekania-pennanti">extirpated from Washington State in the 1900's, Fishers are now being re-introduced to the Olympic and Cascade mountain ranges in Washington State.</a></p></center>
+			<center><p>In order to keep track of where the Fishers are located and where they are expanding to, users can use the map below to report signs of Fisher presence (tracks, scat, fur, etc.) to help conservationists track where the Fishers have spread to.</p></center>
+			<center><p>Use the point tool to record the location of signs such as scat and fur, use the line tool to record signs such as tracks over a distance, and use the shape tool to plot a combination of signs on the map.  Use these sources below to help identify Fisher tracks, scat, and other potential signs:</p></center>
+			<center><p><a target="_blank" href="https://winterberrywildlife.ouroneacrefarm.com/2020/01/30/fisher-tracks-and-sign/">Tracks and Scat</a></p></center>
+			<center><p><a target="_blank" href="https://www.inaturalist.org/guide_taxa/335851">Tracks, Scat, and Information about the Fisher (Inspired the use of scat as a sign of the Fisher in this app)</a></p></center>
+			<center><p><a target="_blank" href="https://www.nationaltrappers.com/fisher.html">Details of the Track Width (Used for track size question in form)</a></p></center>
+			<center><p><a target="_blank" href="https://mesocarnivore.weebly.com/citizen-science.html">Fisher Citizen Science App for Alberta, Canada (Inspired the questions and the use of scat as a sign of the Fisher in this app)</a><p></center>
+			<center><p><a target="_blank" href="https://www.northwoodsguides.com/animal_scat_notes.php">Description of Fisher Scat (Used for scat width question in form)</a></p></center>
+			<center><p><a target="_blank" href="https://www.fws.gov/yreka/fisher.html">General Information for the Fisher</a></p></center>
+		</div>
+	</head>
+<body>
+	<div id="map"></div>
+	<script src="javascript.js"></script>
+</body>
+</html>
